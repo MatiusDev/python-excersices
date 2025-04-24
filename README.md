@@ -1,131 +1,75 @@
-# 🧪 Ejercicios Básicos de Programación en Python
+# 🧪 Ejercicios de Flujos de Control en Python
 
-Estos ejercicios están diseñados para practicar sintaxis, condiciones y lógica básica en Python. Son ideales para estudiantes que están comenzando su camino en la programación.
-
----
-
-## 1. Hola Mundo personalizado
-
-Pide al usuario su nombre y muestra un saludo personalizado en pantalla.
-
-**Ejemplo:**
-```
-¿Cómo te llamas? Juan
-¡Hola, Juan!
-```
+A continuación se presentan 10 ejercicios prácticos para trabajar con estructuras de control (`for`, `while`, `match-case`) en Python.
 
 ---
 
-## 2. Suma de dos números
+## ✅ 1. Suma de los primeros 10 números
 
-Solicita dos números al usuario, realiza la suma y muestra el resultado.
-
-**Ejemplo:**
-```
-Ingresa el primer número: 5
-Ingresa el segundo número: 3
-La suma es: 8.0
-```
+**Enunciado:**  
+Escribe un programa que use un bucle `for` para sumar los números del 1 al 10 y mostrar el resultado final.
 
 ---
 
-## 3. Conversión de temperatura
+## ✅ 2. Mostrar caracteres en mayúscula
 
-Pide una temperatura en grados Celsius y conviértela a Fahrenheit. Muestra el resultado.
-
-**Ejemplo:**
-```
-Ingresa la temperatura en Celsius: 25
-Temperatura en Fahrenheit: 77.0
-```
+**Enunciado:**  
+Crea un programa que recorra una palabra carácter por carácter y muestre cada letra en mayúscula en una nueva línea.
 
 ---
 
-## 4. Área de un rectángulo
+## ✅ 3. Tablas de multiplicar del 1 al 5
 
-Pide al usuario la base y la altura de un rectángulo y calcula su área.
-
-**Ejemplo:**
-```
-Ingresa la base del rectángulo: 4
-Ingresa la altura del rectángulo: 5
-El área del rectángulo es: 20.0
-```
+**Enunciado:**  
+Haz un programa que muestre las tablas de multiplicar del 1 al 5. Cada tabla debe ir del 1 al 10.
 
 ---
 
-## 5. Edad futura
+## ✅ 4. Contador descendente
 
-Pide al usuario su edad y muestra cuántos años tendrá dentro de 5 años.
-
-**Ejemplo:**
-```
-¿Cuál es tu edad? 16
-En 5 años tendrás 21 años.
-```
+**Enunciado:**  
+Escribe un programa que use un bucle `while` para contar desde 10 hasta 1 y mostrar cada número en pantalla.
 
 ---
 
-## 6. Número positivo, negativo o cero
+## ✅ 5. Verificación de contraseña
 
-Solicita un número y muestra si es positivo, negativo o igual a cero.
-
-**Ejemplo:**
-```
-Ingresa un número: -2
-Es negativo.
-```
+**Enunciado:**  
+Crea un sistema que pida al usuario una contraseña. Si no la acierta, podrá intentarlo hasta 3 veces. Si falla, muestra un mensaje de acceso bloqueado.
 
 ---
 
-## 7. Par o impar
+## ✅ 6. Juego: Adivina el número
 
-Pide un número entero al usuario y muestra si es par o impar.
-
-**Ejemplo:**
-```
-Ingresa un número entero: 10
-Es par.
-```
+**Enunciado:**  
+Escribe un programa que pida al usuario adivinar un número secreto entre 1 y 10. El juego se repite hasta que adivine correctamente.
 
 ---
 
-## 8. Mayor de dos números
+## ✅ 7. Menú interactivo simple
 
-Solicita dos números y muestra cuál es el mayor. Si son iguales, indícalo.
-
-**Ejemplo:**
-```
-Ingresa el primer número: 9
-Ingresa el segundo número: 12
-El segundo número es mayor.
-```
+**Enunciado:**  
+Crea un programa con un menú que muestre 3 opciones numeradas. Usa `match-case` para ejecutar una acción distinta según la opción elegida.
 
 ---
 
-## 9. Calculadora simple
+## ✅ 8. Clasificación de notas
 
-Crea una pequeña calculadora que permita al usuario ingresar dos números y una operación (+, -, *, /) y luego muestre el resultado.
-
-**Ejemplo:**
-```
-Ingresa el primer número: 7
-Ingresa el segundo número: 2
-Elige una operación (+, -, *, /): *
-Resultado: 14.0
-```
+**Enunciado:**  
+Haz un programa que lea una nota del 1 al 5 e imprima una calificación cualitativa (Ej: 5 = "Excelente", 1 = "Muy deficiente"). Usa `match-case`.
 
 ---
 
-## 10. Aprobado o reprobado
+## ✅ 9. Identificador de tipo de día
 
-Pide una nota del 0 al 100. Si es 60 o más, muestra “Aprobado”; si es menor, “Reprobado”.
-
-**Ejemplo:**
-```
-Ingresa tu nota (0 a 100): 75
-Aprobado
-```
+**Enunciado:**  
+Solicita al usuario un día de la semana y muestra si es un día laboral, viernes o fin de semana. Usa `match-case` para clasificar los días.
 
 ---
 
+## ✅ 10. Identificación de pares e impares
+
+**Enunciado:**  
+Crea un programa que recorra los números del 1 al 10. Para cada número, indique si es **par** o **impar** usando `if`.
+
+---
